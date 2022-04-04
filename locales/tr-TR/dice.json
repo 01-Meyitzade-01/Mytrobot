@@ -1,3 +1,4 @@
 {
-  "result": "🎲 Zar {number} numarasında durdu"
+  "dice_description": "Bir zar ve numarasını gönderir.",
+  "result": "🎲 Zar şu numarada durdu: {sayı}"
 }
