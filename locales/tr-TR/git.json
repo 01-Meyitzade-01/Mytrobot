@@ -1,1 +1,6 @@
-{}
+{
+  "git_description": "GitHub profilinden bilgi alır.",
+  "info_git_user": "<b>Ad</b>: <code>{name}</code>\n<b>Kullanıcı adı</b>: <code>{username}</code>\n<b>Konum</b> : <code>{location}</code>\n<b>Tür</b>: <code>{type}</code>\n<b>Bio</b>: <code>{bio}< /code>",
+  "not_found_user": "Kullanıcı bulunamadı.",
+  "no_username_err": "Lütfen bir kullanıcı adı belirtin."
+}
