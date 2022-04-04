@@ -1,1 +1,5 @@
-{}
+{
+  "language_changed_successfully": "Dil başarıyla değiştirildi.",
+  "language_changer_chat": "Burada, sohbet boyunca bot için kullanılan dili değiştirebilirsiniz.\nDiliniz burada listelenmemişse ve katkıda bulunmak istiyorsanız, @MytProGuardBot'a gidin..",
+  "language_changer_private": "Burada, bu özel sohbette bot için kullanılan dili değiştirebilirsiniz.\in\Grubunuzun dilini değiştirmek istiyorsanız, lütfen üzerinde <code>/setchatlang</code> komutunu çalıştırın.\nBilgi almak isterseniz @MytProGuardBot'a gidin."
+}
