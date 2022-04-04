@@ -1,1 +1,12 @@
-{}
+{
+  "add_filter_success": "<b>{trigger}</b> filtresi eklendi.",
+  "add_filter_empty": "Lütfen filtre için bir içerik belirtin.",
+  "delfilter_description": "Bu sohbetten bir filtreyi kaldır.",
+  "filter_description": "Bu sohbet için bir filtre oluşturun.",
+  "filters_description": "Bu sohbet için mevcut filtreleri göster.",
+  "filters_list": "Bu sohbetteki filtreler:\n\n",
+  "filters_list_empty": "Şu anda bu sohbette filtre yok.",
+  "no_filter_with_name": "<b>{trigger}</b> adında bir filtre yok.",
+  "remove_filter_success": "<b>{trigger}</b> filtrelerden kaldırıldı."
+}
+
