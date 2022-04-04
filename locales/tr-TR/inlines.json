@@ -1,1 +1,7 @@
-{}
+{
+  "markdown_send_inline": "Metni markdown formatında göndermek için buraya tıklayın.",
+  "html_send_inline": "Metni html formatında göndermek için buraya tıklayın.",
+  "user_info_inline_cant_found_user": "Kullanıcı bulunamadı.",
+  "user_info_inline_send": "Kullanıcı bilgileri için buraya tıklayın.",
+  "user_info_inline_string": "Kullanıcı adı: {usernameformat}\nID: {useridformat}\nDC: {userdcformat}\nKullanıcı bağlantısı: {usermentionformat}"
+}
