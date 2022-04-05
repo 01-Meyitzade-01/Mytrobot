@@ -1,1 +1,15 @@
-{}
+{
+  "resetwelcome_description": "Karşılama mesajını botun varsayılan karşılama mesajına sıfırlar.",
+  "setwelcome_description": "Karşılama mesajını belirtilen mesaja ayarlayın. Biçimlendirmeyle ilgili yardım için bkz. /welcomeformat.",
+  "welcome_default": "Merhaba {first_name}, {chat_title}'a hoş geldiniz!",
+  "welcome_description": "Karşılama mesajını açar veya kapatır.",
+  "welcome_mode_disable": "{chat_title} için karşılama mesajı artık devre dışı.",
+  "welcome_mode_enable": "{chat_title} için karşılama mesajı artık etkinleştirildi.",
+  "welcome_mode_invalid": "Geçersiz argüman. <code>/welcome off/on</code> kullanın.",
+  "welcome_reset": "{chat_title} için karşılama mesajı, botun varsayılan karşılama mesajına geri ayarlandı.",
+  "welcome_set_empty": "Karşılama mesajını belirtmelisiniz, örneğin: <code>/setwelcome mesajınızı hoş geldiniz</code>. Biçimlendirmeyle ilgili yardım için <a href=\"https://t.me/{bot_username}?start=welcome_format_help\">burayı tıklayın</a>.",
+  "welcome_set_error": "Bir hata oluştu ve karşılama mesajı ayarlanamadı. Hata: {hata}",
+  "welcome_set_success": "{chat_title} için karşılama mesajı başarıyla ayarlandı.",
+  "welcome_format_help_msg": "Mesaj, html formatında veya Telegram'ın yerleşik metin formatlayıcısı ile formatlanabilir. Html'nizin doğru olduğunu doğrulamak için /html komutunu kullanabilirsiniz.\n\nBu argümanları hoş geldiniz için kullanabilirsiniz..",
+  "welcomeformat_description": "Karşılama mesajını biçimlendirmenize yardımcı olun."
+}
