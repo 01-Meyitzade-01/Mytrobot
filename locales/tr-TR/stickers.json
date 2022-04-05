@@ -1,1 +1,14 @@
-{}
+{
+  "get_sticker_id_string": "Bu çıkartmanın kimliği: <code>{stickerid}</code>",
+  "animated_not_supported": "Animasyonlu çıkartmalar desteklenmez.",
+  "sticker_info": "<b>Emoji:</b> {emoji}\n<b>Çıkartma Kimliği:</b> <code>{id}</code>",
+  "not_sticker": "Bu bir çıkartma değil.",
+  "kanging_sticker_msg": "<code>Kanging çıkartması...</code>",
+  "sticker_kanged_string": "Etiket <b>başarıyla</b> pakete eklendi\nEmoji: {sticker_emoji}",
+  "use_existing_pack": "<code>Mevcut çıkartma paketini kullanma...</code>",
+  "err_sticker_no_file_name": "<b>Hata</b>: <code>Bu çıkartmanın dosya adı yok!</code>",
+  "view_sticker_pack_btn": "Görünüm",
+  "create_new_pack_string": "Yeni bir çıkartma paketi oluşturma...",
+  "invalid_media_string": "<b>Hata:</b> <code>Geçersiz medya<code>",
+  "cant_create_sticker_pack_string": "Hata! Sizin için çıkartma paketi oluşturmak için yeterli iznim yok gibi görünüyor!\n<b>Lütfen önce botu başlatın.</b>"
+}
