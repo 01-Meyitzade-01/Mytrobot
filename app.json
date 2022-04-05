@@ -1,0 +1,44 @@
+{
+      "name": "MYT PRO GUARD",
+      "description": "Telegram group management bot.",
+      "logo": "https://telegra.ph/file/1d38e2291d525abd2e272.jpg",
+      "keywords": [
+         "telegram",
+         "anime",
+         "group",
+         "manager",
+         "MytProGuardBot"
+      ],   
+   "repository": "https://github.com/01-Meyitzade-01/Mytrobot.git",
+   "addons": [
+      {
+         "options": {
+            "version": "0.1"
+         },
+         "plan": "heroku-postgresql"
+      }
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": "5221029810:AAFm9b84F_JUXBp9T4b0RmQKKz9FgvO7C0M"
+      },
+      "API_ID": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": "13964669"
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": "21d14212a7b12cace42bfd340044d873"
+      },
+         "buildpacks": [
+      {
+         "url": "https://github.com/heroku/heroku-buildpack-python"
+      },
+      {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      },
+   ],  
+}
