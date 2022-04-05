@@ -1,4 +1,5 @@
 {
-  "forbidden_command": "403 İzinsiz komut.",
-  "restarting": "Yeniden başlatılıyor..."
+  "speedtest": "<b>Hız testi</b>\n\n<b>🌐 Ana Bilgisayar:</b> <code>{host}</code>\n\n<b>🏓 Ping:</b> <code>{ping} ms</code>\n<b>⬇️ İndir:</b> <code>{indir} Mbps</code>\n<b>⬆️ Yükle:</b> <code>{upload} Mbps< /code>",
+  "forbidden_command": "yasak komut.",
+  "restarting": "Yeniden başlatma..."
 }
