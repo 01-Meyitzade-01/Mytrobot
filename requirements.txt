@@ -1,5 +1,5 @@
 # Using AmanoTeam Pyrogram's
-git+https://github.com/AmanoTeam/pyrogram.git#egg=Pyrogram
+git+https://github.com/01-Meyitzade-01/pyrogram.git#egg=Pyrogram
 tgcrypto  # To increase Pyrogram speed
 
 # To increase general speed and stability. Ignored under Windows
