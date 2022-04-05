@@ -32,8 +32,6 @@ Kurulum
 - Botu çalıştırmak için ``python3 -m eduu`` komutunu çalıştırmanız yeterlidir. Virtualenv'den yüklediyseniz, `` çalıştırın. .venv/bin/activate`` bundan önce.
 - tutmak istiyorsanız, `ekranda <https://en.wikipedia.org/wiki/GNU_Screen>`__ veya `tmux <https://en.wikipedia.org/wiki/Tmux>`__ üzerinde çalıştırmanız şiddetle tavsiye edilir. bir sunucuda çalışan bot.
 
-..  [Deploy] https://heroku.com/deploy?template=https://github.com/01-Meyitzade-01/Mytrobot
-
 Not
 ----
 Botla ilgili herhangi bir hata/sorun bulursanız, üç seçeneğiniz vardır.:
