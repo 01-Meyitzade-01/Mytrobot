@@ -1,1 +1,7 @@
-{}
+{
+  "code_exec_tio_res_string_no_err": "<b>Dil:</b> <code>{langformat}</code>\n\n<b>Kod:</b>\n<code>{codeformat}</code>\n\n<b >Sonuçlar:</b>\n<code>{resformat}</code>\n\n<b>İstatistikler:</b><code>{statsformat}</code>",
+  "code_exec_tio_res_string_err": "<b>Dil:</b> <code>{langformat}</code>\n\n<b>Kod:</b>\n<code>{codeformat}</code>\n\n<b >Sonuçlar:</b>\n<code>{resformat}</code>\n\n<b>Hatalar:</b>\n<code>{errformat}</code>",
+  "code_exec_err_string": "Hata: <b>{langformat}</b> dili bulunamadı. Desteklenen diller listesi: {langslistlink}",
+  "code_exec_inline_send": "Dil: {langformat}",
+  "code_exec_err_inline_send_string": "{langformat} dili bulunamadı."
+}
