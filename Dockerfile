@@ -62,13 +62,13 @@ RUN apt update && apt upgrade -y && \
 RUN apt-get install -y ffmpeg python3-pip curl
 RUN pip3 install --upgrade pip setuptools
 
-RUN mkdir /Eduu/
-COPY . /Eduu
-WORKDIR /Eduu
+RUN mkdir /eduu/
+COPY . /eduu
+WORKDIR /eduu
 
 ENV PATH="/home/bot/bin:$PATH"
 
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","Eduu"]
+CMD ["python3","-m","eduu"]
