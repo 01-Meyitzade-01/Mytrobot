@@ -12,7 +12,7 @@ from pyrogram import Client, idle
 from pyrogram.errors import BadRequest
 
 import eduu
-from eduu.config import API_HASH, API_ID, TOKEN, disabled_plugins, log_chat
+from eduu.config import API_HASH, API_ID, TOKEN, DISABLED_PLUGINS, LOG_CHAT
 from eduu.utils import del_restarted, get_restarted, shell_exec
 
 try:
