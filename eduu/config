@@ -10,7 +10,7 @@ API_HASH: str = "f43cdf13b9fec8e3da3c3a50397bad68"
 
 
 # Chat used for logs
-log_chat: int = "-1001530510247"
+LOG_CHAT: int = "-1001530510247"
 
 # Sudoers and super sudoers
 super_sudoers: List[int] = [2028948832]
@@ -21,7 +21,7 @@ sudoers: List[int] = [2028948832]
 prefix: List[str] = ["/", "!"]
 
 # List of disabled plugins
-disabled_plugins: List[str] = []
+DISABLED_PLUGINS: List[str] = []
 
 # API Keys (Optional)
 TENOR_API_KEY: Optional[str] = ""
