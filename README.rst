@@ -2,67 +2,45 @@
 
   <img src="https://i.imgur.com/RtXS5Yo.png" width="150" align="right">
 
-EduuRobot
+MytRobot
 =========
 
 |License| |Codacy| |Crowdin| |Black| |Telegram Channel| |Telegram Chat|
 
-A multipurpose Telegram Bot made with Pyrogram and asynchronous programming.
+Pyrogram ve asenkron programlama ile yapılmış çok amaçlı bir Telegram Botu.
 
-
-Requirements
+Gereksinimler
 ------------
 - Python 3.6+
-- An Unix-like operating system (Running on Windows isn't 100% supported. In case you find any issues inside Windows, please file an issue)
+- Unix benzeri bir işletim sistemi (Windows'ta çalıştırma %100 desteklenmez. Windows'ta herhangi bir sorun bulursanız, lütfen bir sorun bildirin.)
 
 
-Setup
------
-1. Create a virtualenv (This step is optional, but **highly** recommended to avoid dependency conflicts)
-
-   - ``python3 -m venv .venv`` (You don't need to run it again)
-   - ``. .venv/bin/activate`` (You must run this every time you open the project in a new shell)
-
-2. Install the required modules from the requirements.txt with ``pip3 install -Ur requirements.txt``.
-3. Go to https://my.telegram.org/apps and create a new app.
-4. Create a new ``config.py`` file from the ``config.py.example`` file (``cp eduu/config.py.example eduu/config.py``).
-5. Place your token, IDs and api keys to your config.py file.
-
-
-Running
+Kurulum
 -------
-- To run the bot you just need to run ``python3 -m eduu``. In case you installed from a virtualenv, run ``. .venv/bin/activate`` before this.
-- Running it on `screen <https://en.wikipedia.org/wiki/GNU_Screen>`__ or `tmux <https://en.wikipedia.org/wiki/Tmux>`__ is highly recommended if you want to keep the bot running on a server.
+1. Bir sanal ortam oluşturun (Bu adım isteğe bağlıdır, ancak bağımlılık çakışmalarını önlemek için **kesinlikle** önerilir)
+
+   - ``python3 -m venv .venv`` (tekrar çalıştırmanıza gerek yok)
+   - ``. .venv/bin/activate`` (Projeyi her yeni kabukta açtığınızda bunu çalıştırmalısınız.)
+
+2. Gerekli modülleri gereksinimler.txt dosyasından yükleyin. ``pip3 install -Ur requirements.txt``.
+3. https://my.telegram.org/apps adresine gidin ve yeni bir uygulama oluşturun.
+4. ``config.py.example`` dosyasından (``cp eduu/config.py.example eduu/config.py``) yeni bir ``config.py`` dosyası oluşturun).
+5. Simgenizi, kimliklerinizi ve API anahtarlarınızı config.py dosyanıza yerleştirin.
 
 
-Note
+Çalıştırmak
+-----------
+- Botu çalıştırmak için ``python3 -m eduu`` komutunu çalıştırmanız yeterlidir. Virtualenv'den yüklediyseniz, `` çalıştırın. .venv/bin/activate`` bundan önce.
+- tutmak istiyorsanız, `ekranda <https://en.wikipedia.org/wiki/GNU_Screen>`__ veya `tmux <https://en.wikipedia.org/wiki/Tmux>`__ üzerinde çalıştırmanız şiddetle tavsiye edilir. bir sunucuda çalışan bot.
+
+
+Not
 ----
-If you find any bugs/issues with the bot you have three options:
+Botla ilgili herhangi bir hata/sorun bulursanız, üç seçeneğiniz vardır.:
 
-- Create a new issue in our `GitHub <https://github.com/AmanoTeam/EduuRobot>`__ describing the issue.
-- Send the /bug command to `bot's <https://t.me/EduuRobot>`__ chat describing the issue.
-- If you know how to fix the issue, fork our repo and open up a pull request.
-
-
-Translations
-------------
-Translations should be done in our `Crowdin project <https://crowdin.com/project/eduurobot>`__,
-as Crowdin checks for grammar issues, provides improved context about the string being translated and so on,
-thus possibly providing better quality translations. But you can also submit a pull request if you prefer translating that way.
-
-
-Special thanks
---------------
-* @Halokv: Arabic translation
-* @SGANoud: Dutch translation
-* @iiiiii1wepfj: Hebrew translation
-* @HafitzSetya: Indonesian translation
-* @Pato05: Italian translation
-* @Quiec: Russian and Turkish translations
-* And many other people I couldn't list here.
-
-
-©2022 - `AmanoTeam™ <https://amanoteam.com>`__
+- Sorunu açıklayan `GitHub <https://github.com/01-Meyitzade-01/MytRobot>`__ sayfamızda yeni bir sorun oluşturun.
+- Sorunu açıklayan `bot'un <https://t.me/MytProGuardBot>`__ sohbetine /bug komutunu gönderin.
+- Sorunu nasıl çözeceğinizi biliyorsanız, depomuzu çatallayın ve bir çekme isteği açın.
 
 .. Badges
 .. |Black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
@@ -73,6 +51,6 @@ Special thanks
    :target: https://crowdin.com/project/eduurobot
 .. |License| image:: https://img.shields.io/github/license/AmanoTeam/EduuRobot
 .. |Telegram Channel| image:: https://img.shields.io/badge/Telegram-Channel-33A8E3
-   :target: https://t.me/AmanoTeam
+   :target: https://t.me/Hiraset
 .. |Telegram Chat| image:: https://img.shields.io/badge/Telegram-Chat-33A8E3
-   :target: https://t.me/AmanoChat
+   :target: https://t.me/HirasetTR
