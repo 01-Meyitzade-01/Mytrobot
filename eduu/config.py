@@ -20,6 +20,9 @@ class Config(object):
     TOKEN = "5221029810:AAFm9b84F_JUXBp9T4b0RmQKKz9FgvO7C0M"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "2028948832"  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "meyitzade47"
+    MONGO_PORT = get_int_key("27017")
+    MONGO_DB_URI = get_str_key("MONGO_DB_URI")
+    MONGO_DB = "AnosVoldigoad"
     SUPPORT_CHAT = "HirasetTR"  # Your own group for support, do not add the @
     LOG_CHAT = (
         -1001530510247
