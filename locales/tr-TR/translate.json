@@ -1,1 +1,7 @@
-{}
+{
+  "tr_description": "Metni verilen dile çevirir (sohbetin varsayılan dilidir).",
+  "translate_usage": "<b>Kullanım:</b> <code>/tr <dil> çeviri için metin</code> (Mesajı yanıtlamak için de kullanılabilir).",
+  "translating": "çeviriyorum...",
+  "translation": "<b>Dil:</b> {from_lang} -> {to_lang}\n<b>Çeviri:</b> <code>{translation}</code>",
+  "translate_inline_send": "{srclangformat} dilinden {tolangformat} diline çevir"
+}
