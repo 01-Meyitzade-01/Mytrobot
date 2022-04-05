@@ -1,1 +1,21 @@
-{}
+{
+  "resetwarns_description": "Kullanıcı uyarılarını sıfırlar.",
+  "setwarnslimit_description": "Sohbet uyarıları sınırını ayarlar.",
+  "user_warned": "{target_user} kullanıcısının {warn_count}/{warn_limit} uyarısı var.",
+  "warn_banned": "{target_user} kullanıcısı {warn_count} kez uyarıldığı için yasaklandı.",
+  "warn_kicked": "{target_user} kullanıcısı {warn_count} kez uyarıldığı için atıldı.",
+  "warn_muted": "{warn_count} kez uyarıldığı için {target_user} kullanıcısının sesi kapatıldı.",
+  "warn_cant_admin": "adminleri uyaramam.",
+  "warn_description": "Bir kullanıcıyı uyar.",
+  "warn_limit_changed": "Uyarı sınırı başarıyla {warn_limit} olarak değiştirildi.",
+  "warn_limit_help": "Uyarı sayısını belirtmelisiniz, Ör.: <code>/setwarnslimit 5</code>.",
+  "warn_limit_invalid": "Sağlanan numara geçerli değil.",
+  "warn_reason_text": "Uyarı nedeni: {reason_text}",
+  "warn_reset": "{target_user} uyarıları başarıyla kaldırıldı.",
+  "warns_description": "Kullanıcının uyarılarını alın.",
+  "warns_count_string": "{target_user} kullanıcısında {warns_count} uyarı var.",
+  "warns_action_set_string": "Uyarı eylemi {action} olarak ayarlandı.",
+  "warns_action_set_invlaid": "Geçersiz argüman. <code>/setwarnsaction ban/mute/kick</code> kullanın.",
+  "warn_action_status": "Bu sohbet için uyarı eylemi {action}.",
+  "setwarnsaction_description": "Sohbet için uyarı eylemini ayarlayın. <code>ban/mute/kick</code> argümanlarını kullanabilirsiniz.."
+}
