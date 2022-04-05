@@ -1,4 +1,8 @@
 {
+  "details": "<b>{location}</b>:\n\nSıcaklık: <code>{heat} °C</code>\nSıcaklık şunun gibi: <code>{felt} °C</code>\nHava nemi: < code>{air_humidity}%</code>\nRüzgar hızı: <code>{wind_speed} km/sa<",
   "location_not_found": "Konum bulunamadı.",
-  "weather_language": "tr-TR"
+  "measurement_unit": "m",
+  "weather_language": "tr-TR",
+  "weather_description": "Verilen konum veya şehir için hava durumu bilgilerini alın.",
+  "weather_usage": "<b>Kullanım:</b> <code>/weather durumu konumu veya şehir</code> - <i>Konum veya şehir</i> içindeki hava durumu hakkında bilgi alın."
 }
