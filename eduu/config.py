@@ -21,7 +21,7 @@ class Config(object):
     OWNER_ID = "2028948832"  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "meyitzade47"
     MONGO_PORT = get_int_key("27017")
-    MONGO_DB_URI = get_str_key("MONGO_DB_URI")
+    MONGO_DB_URI = get_str_key("mongodb+srv://vai:vai@cluster0.py47r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     MONGO_DB = "AnosVoldigoad"
     SUPPORT_CHAT = "HirasetTR"  # Your own group for support, do not add the @
     LOG_CHAT = (
