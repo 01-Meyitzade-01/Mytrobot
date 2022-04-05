@@ -1,1 +1,1 @@
-worker: python3 -m Eduu
+worker: python3 -m eduu
