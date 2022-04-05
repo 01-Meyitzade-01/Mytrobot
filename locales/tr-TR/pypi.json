@@ -1,1 +1,8 @@
-{}
+{
+  "package_details": "<b>{package_name}</b> tarafından <i>{author_name} {author_email}</i>\nPlatform: <b>{platform}</b>\nSürüm: <b>{versiyon}</b> \nLisans: <b>{licence}</b>\nÖzet: <b>{summary}</b>",
+  "package_home_page": "Package home page",
+  "package_not_found": "PyPI'de <b>{package_name}</b> bulunamıyor (Döndürülen kod şuydu: {http_status}).",
+  "not_specified": "Belirtilmemiş",
+  "pypi_description": "Python Paket Dizini'nde (PyPI) bir paket arar.",
+  "pypi_usage": "<b>Kullanım:</b> <code>/pypi package_name</code> - Python Paket Dizininde (PyPI) bir paket arar."
+}
